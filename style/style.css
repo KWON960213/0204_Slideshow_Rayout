@@ -53,8 +53,10 @@ div#wrap {
     border: 1px solid #000;
 }
 
-#header, #aside, #footer {
-height: 100px;
+#header,
+#aside,
+#footer {
+    height: 100px;
 }
 
 /* 슬라이드쇼 레이아웃 시작 */
@@ -62,19 +64,20 @@ height: 100px;
 div#slideshow {
     width: 3600px;
     height: 300px;
-/*    border: 1px solid #8f0;*/
+    /*    border: 1px solid #8f0;*/
     position: relative;
     overflow: hidden;
 }
 
-    div#slideshow:hover {
+div#slideshow:hover {
     left: -1200px;
-         transition: all 2s;
-    }
+    transition: all 2s;
+}
 
-#slideshow>ul>li {
+#slideshow > ul > li {
     position: absolute;
 }
+
 li:nth-child(2) {
     margin-left: 1200px;
 }
@@ -90,13 +93,3 @@ div#sildearea {
     height: 300px;
 
 }
-
-
-
-
-
-
-
-
-
-
